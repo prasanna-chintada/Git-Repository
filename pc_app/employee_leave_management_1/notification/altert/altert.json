@@ -1,0 +1,34 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.workflow_state == \"Pending\"\r\n\r\n",
+ "creation": "2025-11-27 11:20:17.049385",
+ "date_changed": "from_date",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Leave Application",
+ "enabled": 1,
+ "event": "Days After",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Add your message here</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-12-01 12:29:50.706662",
+ "modified_by": "Administrator",
+ "module": "Employee Leave Management 1",
+ "name": "Altert",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.workflow_state == \"Pending\"",
+   "receiver_by_document_field": "email",
+   "receiver_by_role": "HR Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Chintadaprasanna19@gmail.com",
+ "sender_email": "chintadaprasanna19@gmail.com",
+ "subject": "Your Request {{ doc.name }} is Pending"
+}

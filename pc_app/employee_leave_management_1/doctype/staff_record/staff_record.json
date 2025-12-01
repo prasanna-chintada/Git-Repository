@@ -1,0 +1,194 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-25 10:49:04.434714",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_information_section",
+  "employee_id",
+  "employee_name",
+  "gender",
+  "date_of_birth",
+  "nationality",
+  "contact_information_tab",
+  "mobile_number",
+  "email_address",
+  "address",
+  "photo",
+  "national_id_number",
+  "column_break_7flta",
+  "resume__cv",
+  "other_documents",
+  "bank_account_number",
+  "emergency_contact",
+  "job_grade",
+  "reports_to",
+  "tab_break_wza9u",
+  "department",
+  "designation",
+  "date_of_joining",
+  "employment_type",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Link",
+   "label": "Employee ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOthers"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality",
+   "options": "Afghan\nAlbanian\nAlgerian\nAmerican\nAndorran\nAngolan\nArgentinian\nArmenian\nAustralian\nAustrian\nAzerbaijani\nBahamian\nBahraini\nBangladeshi\nBarbadian\nBelarusian\nBelgian\nBelizean\nBeninese\nBhutanese\nBolivian\nBosnian\nBrazilian\nBritish\nBruneian\nBulgarian\nBurkinabe\nBurmese\nBurundian\nCambodian\nCameroonian\nCanadian\nCape Verdean\nCentral African\nChadian\nChilean\nChinese\nColombian\nComorian\nCongolese\nCosta Rican\nCroatian\nCuban\nCypriot\nCzech\nDanish\nDjiboutian\nDominican\nDutch\nEcuadorian\nEgyptian\nEmirati\nEnglish\nEquatorial Guinean\nEritrean\nEstonian\nEswatini\nEthiopian\nFijian\nFilipino\nFinnish\nFrench\nGabonese\nGambian\nGeorgian\nGerman\nGhanaian\nGreek\nGrenadian\nGuatemalan\nGuinean\nGuyanese\nHaitian\nHonduran\nHungarian\nIcelander\nIndian\nIndonesian\nIranian\nIraqi\nIrish\nIsraeli\nItalian\nIvorian\nJamaican\nJapanese\nJordanian\nKazakh\nKenyan\nKittitian\nKosovar\nKuwaiti\nKyrgyz\nLaotian\nLatvian\nLebanese\nLiberian\nLibyan\nLiechtensteiner\nLithuanian\nLuxembourgish\nMalagasy\nMalawian\nMalaysian\nMaldivian\nMalian\nMaltese\nMarshallese\nMauritanian\nMauritian\nMexican\nMicronesian\nMoldovan\nMon\u00e9gasque\nMongolian\nMontenegrin\nMoroccan\nMozambican\nNamibian\nNauruan\nNepalese\nNew Zealander\nNicaraguan\nNigerian\nNigerien\nNorth Korean\nNorth Macedonian\nNorwegian\nOmani\nPakistani\nPalestinian\nPanamanian\nPapua New Guinean\nParaguayan\nPeruvian\nPolish\nPortuguese\nQatari\nRomanian\nRussian\nRwandan\nSaint Lucian\nSalvadoran\nSamoan\nSaudi\nScottish\nSenegalese\nSerbian\nSeychellois\nSierra Leonean\nSingaporean\nSlovak\nSlovenian\nSomali\nSouth African\nSouth Korean\nSouth Sudanese\nSpanish\nSri Lankan\nSudanese\nSurinamese\nSwazi\nSwedish\nSwiss\nSyrian\nTaiwanese\nTajikistani\nTanzanian\nThai\nTimorese\nTogolese\nTongan\nTrinidadian\nTunisian\nTurkish\nTurkmen\nTuvaluan\nUgandan\nUkrainian\nUruguayan\nUzbek\nVanuatuan\nVenezuelan\nVietnamese\nWelsh\nYemeni\nZambian\nZimbabwean"
+  },
+  {
+   "fieldname": "contact_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "national_id_number",
+   "fieldtype": "Data",
+   "label": "National ID Number"
+  },
+  {
+   "fieldname": "column_break_7flta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "resume__cv",
+   "fieldtype": "Attach",
+   "label": "Resume / CV"
+  },
+  {
+   "fieldname": "other_documents",
+   "fieldtype": "Attach",
+   "label": "Other Documents"
+  },
+  {
+   "fieldname": "bank_account_number",
+   "fieldtype": "Data",
+   "label": "Bank Account Number"
+  },
+  {
+   "fieldname": "emergency_contact",
+   "fieldtype": "Data",
+   "label": "Emergency Contact"
+  },
+  {
+   "fieldname": "job_grade",
+   "fieldtype": "Data",
+   "label": "Job Grade"
+  },
+  {
+   "fieldname": "reports_to",
+   "fieldtype": "Link",
+   "label": "Reports to",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "tab_break_wza9u",
+   "fieldtype": "Tab Break",
+   "label": "Employment Details"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining"
+  },
+  {
+   "fieldname": "employment_type",
+   "fieldtype": "Select",
+   "label": "Employment Type",
+   "options": "Full-time\nPart-time\nContract"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive\nResigned\nTerminated"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-01 12:27:56.641487",
+ "modified_by": "Administrator",
+ "module": "Employee Leave Management 1",
+ "name": "Staff Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

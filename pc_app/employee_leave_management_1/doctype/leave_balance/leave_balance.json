@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-25 11:17:54.647457",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "leave_type",
+  "leave_entitled",
+  "leave_taken",
+  "leave_remaining",
+  "leave_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "leave_type",
+   "fieldtype": "Select",
+   "label": "Leave Type",
+   "options": "Casual Leave (CL)\nSick Leave (SL)\nAnnual Leave (AL)\nMaternity Leave"
+  },
+  {
+   "fieldname": "leave_entitled",
+   "fieldtype": "Int",
+   "label": "Leave Entitled"
+  },
+  {
+   "fieldname": "leave_taken",
+   "fieldtype": "Float",
+   "label": "Leave Taken"
+  },
+  {
+   "fieldname": "leave_remaining",
+   "fieldtype": "Float",
+   "label": "Leave Remaining"
+  },
+  {
+   "fieldname": "leave_year",
+   "fieldtype": "Select",
+   "label": "Leave Year",
+   "options": "2025\n2024\n2023\n2022\n2021\n2020"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-01 12:27:43.432590",
+ "modified_by": "Administrator",
+ "module": "Employee Leave Management 1",
+ "name": "Leave Balance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

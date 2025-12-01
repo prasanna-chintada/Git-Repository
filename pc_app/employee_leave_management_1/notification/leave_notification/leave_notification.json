@@ -1,0 +1,35 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.workflow_state == \"Approved\"\r\n",
+ "creation": "2025-11-27 11:21:43.779994",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Leave Application",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Hello {{ doc.employee_name }},</p>\n\n<p>Your request {{ doc.name }} has been approved.</p>\n\n<p>Status: {{ doc.status }}</p>\n\n<p>Regards,\nTeam</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-12-01 12:30:01.105046",
+ "modified_by": "Administrator",
+ "module": "Employee Leave Management 1",
+ "name": "Leave Notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "doc.workflow_state ==  \"Approved\"",
+   "receiver_by_document_field": "email",
+   "receiver_by_role": "HR Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 1,
+ "sender": "Chintadaprasanna19@gmail.com",
+ "sender_email": "chintadaprasanna19@gmail.com",
+ "set_property_after_alert": "email",
+ "subject": "Your Request {{ doc.name }} is Approved",
+ "value_changed": "workflow_state"
+}
